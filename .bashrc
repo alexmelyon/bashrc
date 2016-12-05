@@ -3,3 +3,6 @@ alias gitx='git update-index --chmod +x'
 
 # Make grep happy
 export GREP_OPTIONS="-n --color"
+
+# Track remote git branch
+alias gitc='git checkout --track'
